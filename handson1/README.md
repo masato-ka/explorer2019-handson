@@ -74,19 +74,19 @@ Connect ボタンを押し、**STM32 BOOTLOADER**を選択して「接続」を�
 
 「対応デバイスが見つかりませんでした」 が一覧に表示された場合は Wio LTE が DFU モードになっていません。 DFU モードへの移行操作をしてください。
 
-![フロー](https://docs.google.com/drawings/d/e/2PACX-1vTxepoPYMnANUwLFFHmhc6I6vFyM_aHL-eD-VFIuzAzk1ND5HLFxw093f7Qy3ccZoEc82NHvyoVaaYB/pub?w=924&h=469)
+![フロー](media/connect-device-01.png)
 
-![フロー](https://docs.google.com/drawings/d/e/2PACX-1vRqDKcttYBSi-f9uHFkOa5f-DKWIwafpvZExjS_SKInhhK4L4Rv3cHmwuHtZAZoeKfGn9iD-NzYm1mg/pub?w=480&h=360)
+![フロー](media/connect-device-02.png)
 
 「【絶対圧センサ】を書き込む」をクリックして、スケッチ例を書き込みます。
 
-![フロー](https://docs.google.com/drawings/d/e/2PACX-1vQPJgqVL27iP9fttdDO9tneBADtHXc6bd1oEcfWo0BDIu29fcvKw3V632ttvzg3VIU0Van47iQgXn7D/pub?w=927&h=467)
+![フロー](media/write-program-01.png)
 
 書き込みが完了したら、WioLTEのリセットスイッチを押して、DFUモードを終了します。
 
 書き込んだコードを知りたい方はこちらをクリックください。
 
-[絶対圧センサ読み取りコード](/sketch/baro-harvest.ino)
+[絶対圧センサ読み取りコード](/sketch/baro-harvest/baro-harvest.ino)
 
 ここまでで、デバイス側の準備が完了しました。
 
@@ -133,7 +133,7 @@ SIMを選択し、「操作」からデータを確認を選びます。
 SORACOM Harvet Dataの画面が開きます。しばらく待つと絶対圧センサーの値がグラフになって表示されます。
 絶対圧センサの高さを変えて、気圧の変化を計測しましょう。
 
-![parking](https://docs.google.com/drawings/d/e/2PACX-1vSSa_HTsUnGurBhtTo0UTDry01HDujPAx1CNybl2nkvOsdGtqNmYYSpOI8dsMtNxl8w0yEoVDb4XYe_/pub?w=937&h=441)
+![pressure](media/1-10.png)
 
 ## 片付け
 これでハンズオンは終了です。最後まで終わった方は、センサーを外し元あった場所にお戻しください。
